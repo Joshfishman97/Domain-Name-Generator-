@@ -9,6 +9,7 @@ function generateLi(domain){
   return "<LI>" + domain + "</LI>"
 }
 window.onload = function() {
+  const unorderedList = document.getElementById("domains")
   let pronoun = ["the", "our"];
   let adj = ["great", "big"];
   let noun = ["jogger", "racoon"];
