@@ -5,11 +5,12 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
-function generateLi(domain){
-  return "<LI>" + domain + "</LI>"
+function generateLi(domain) {
+  return "<LI>" + domain + "</LI>";
 }
 window.onload = function() {
-  const unorderedList = document.getElementById("list-of-domains")
+  const unorderedList = document.getElementById("list-of-domains");
+  unorderedList.innerHTML = "<p>Hello World</p>";
   let pronoun = ["the", "our"];
   let adj = ["great", "big"];
   let noun = ["jogger", "racoon"];
