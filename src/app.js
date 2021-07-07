@@ -8,9 +8,17 @@ import "./assets/img/4geeks.ico";
 function generateLi(domain) {
   return "<LI>" + domain + "</LI>";
 }
+let pronoun = ["the", "our"];
+  let adj = ["great", "big"];
+  let noun = ["jogger", "racoon"];
+  let extension = [".com", ".net", ".io", ".us"];
+  
+  function generateDomains (pronounArr, adjArr, NounArr, extentionArr){
+    return "<li>Here</li>"
+  }
 window.onload = function() {
   const unorderedList = document.getElementById("list-of-domains");
-  unorderedList.innerHTML = "<p>Hello World</p>";
+  unorderedList.innerHTML = generateDomains(pronoun,adj,noun,extension);
   let pronoun = ["the", "our"];
   let adj = ["great", "big"];
   let noun = ["jogger", "racoon"];
